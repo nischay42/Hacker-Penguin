@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Hacker Penguin</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="website icon" type="image/png" href="hacker.png">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="contant">
+        <h1 id="heading">Hacker Penguin</h1>
+        <input type="text" id="input" placeholder="Enter Target Name" required/><br/>
+        <button type="button" id="btn" onclick="initialize()">Start</button>
+      </div>
+      <div class="row-container">
+      <div class="output">
+        <h2 id="first"></h2>
+        <div id="second"></div>
+      </div>
+        <div class="image-container">
+          <div class="image-1"></div>
+          <div class="image-2"></div>
+          <video class="video" autoplay loop muted>
+            <source src="hacking.mp4" type="video/mp4">
+            </video>
+      </div>
+    </div>
+    <script src="script.js" theme="blue" defer></script>
+  </body>
+</html>
