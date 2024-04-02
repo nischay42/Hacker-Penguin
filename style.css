@@ -151,6 +151,11 @@
   }
 
   .output {
-    height: 45vh;
+    height: 37vh;
+  }
+
+  .image-container {
+    height: 270px;
+    width: 270px;
   }
 }
