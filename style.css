@@ -137,8 +137,8 @@
 
 @media screen and (max-width: 700px) {
   .contant {
-    height: 15vh;
-    width: 60vw;
+    height: 13vh;
+    width: 100vw;
     text-align: center;
   }
 
@@ -148,5 +148,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+
+  .output {
+    height: 33vh;
   }
 }
